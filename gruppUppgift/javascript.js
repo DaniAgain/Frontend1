@@ -317,7 +317,7 @@ function validateForm() {
         alert("Name has to be between 2 and 50 characters");
         valid = false;
     } else {
-        sessionStorage.setItem("customerName", JSON.stringify(nameInput.value))
+        sessionStorage.setItem("customerName", nameInput.value)
     }
   
 
